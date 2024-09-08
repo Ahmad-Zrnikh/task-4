@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  }
+:root{
+  --main-color: darkgray ;
+}
+.pointer {
+  cursor: pointer;
+}
+.bg-main-color{
+  background-color: var(--main-color) !important;
+}
+.color-main{
+  color: var(--main-color) !important;
+}
+.border-none{
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.border-end.active {
+  border-right-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+.carousel-indicators [data-bs-target] {
+  
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+  opacity: 1 !important;
+  background-color: #fff !important;
+  border: 1px solid var(--main-color) !important;}
+  .carousel-indicators .active {
+background-color: var(--main-color) !important;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    color: var(--main-color) !important;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 6% !important;
+  }
+  .btn:hover.gray{
+    color: var(--main-color) !important;
+  }
+  .dotted{
+    border-style: dotted !important;
+  }
+  @media (max-width:767px){
+  .full-width {
+    width: 100% !important;
+  }}

@@ -1,0 +1,13 @@
+.box{
+    background-color: rgba(175, 255, 255, 0.89) !important;
+    width: 87% !important;
+    left: 7% !important;
+    top: 171px !important;
+    border-color: var(--main-color) !important;
+}
+@media (max-width: 651px){
+    .box{
+        top: 53px !important;
+
+    }
+}
